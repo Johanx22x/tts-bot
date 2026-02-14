@@ -1,0 +1,37 @@
+{
+  "name": "discord-tts-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord que lee mensajes de texto en canales de voz usando TTS",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js",
+    "register-commands": "node src/register-commands.js",
+    "register-guild": "node src/register-commands-guild.js",
+    "test": "node src/test-sanitizer.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tts",
+    "voice"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.9",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "ffmpeg-static": "^5.2.0",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.7.13",
+    "opusscript": "^0.1.1",
+    "sodium-native": "^5.0.10",
+    "tweetnacl": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
