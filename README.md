@@ -2,12 +2,6 @@
 
 Bot de Discord que lee mensajes de texto en canales de voz usando Text-to-Speech (TTS) en español.
 
-## 📚 Documentación
-
-- **[🚀 Guía de Inicio Rápido](INICIO_RAPIDO.md)** - Configuración e instalación paso a paso
-- **[📖 Ejemplos de Uso](EJEMPLOS.md)** - Casos de uso y ejemplos prácticos
-- **[🎛️ Configuración Avanzada](CONFIGURACION_AVANZADA.md)** - Personalización y características avanzadas
-
 ## ✨ Características
 
 - 🎤 **Lee mensajes en voz**: El bot convierte mensajes de texto a voz y los reproduce en canales de voz
